@@ -2,7 +2,7 @@ function Project({ project }) {
   const { name, repo, link, description, image } = project;
   return (
     <div className="project">
-      <img src={require(`../assets/${image}`)} alt={name} className="" />
+      <img src={require(`../../assets/${image}`)} alt={name} className="" />
       <div className="">
         <h3>
           <a href={link}>{name}</a>{" "}
